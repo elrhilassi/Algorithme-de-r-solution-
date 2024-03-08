@@ -1,8 +1,9 @@
 from sympy.logic.boolalg import to_cnf, to_dnf
 import sys
 
-# exp = B & (A | C)  --- non valid
-# exp = ~((~P | ~Z | R) & (~R) & P & (~T | Z) & T) ---valid
+# algorithme de resolution 
+
+
 while True:
     # Demande à l'utilisateur d'entrer une expression logique
     exp = input("Entrer une expression logique (ou 'exit' pour quitter) : ")
@@ -18,7 +19,7 @@ while True:
 
     exp_simp = str(exp_simp)
     clauses = [clause.split("(")[-1].split(")")[0] for clause in exp_simp.split(" & ")]
-    # clauses =['p | r','~r | ~p']
+   
     print("clauses : ", clauses)
 
     clauses_resolvants = []
@@ -60,3 +61,6 @@ while True:
     clauses.extend(clauses_resolvants)
 
     print("La Formule n\'est pas valide")
+    # pour tester 
+    # exp = B & (A | C)  --- non valid
+    # exp = ~((~P | ~Z | R) & (~R) & P & (~T | Z) & T) ---valid
