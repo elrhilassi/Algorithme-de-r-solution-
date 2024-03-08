@@ -22,8 +22,8 @@ Fin ;
   https://github.com/elrhilassi/Algorithme-de-r-solution-.git
 
    2-Exécuter le Programme:
-  cd resolution-automatique-validite-expressions-logiques |
-  python resolution_validite.py
+  cd Algorithme-de-r-solution |
+  python equation.py.py
 
 # Exemple d'Utilisation : 
 
