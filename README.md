@@ -19,10 +19,10 @@ Fin ;
 
 # Instructions d'utilisation
    1- Cloner le Repository:
-  git clone https://github.com/votre_nom_utilisateur/resolution-automatique-validite-expressions-logiques.git
+  https://github.com/elrhilassi/Algorithme-de-r-solution-.git
 
    2-Exécuter le Programme:
-  cd resolution-automatique-validite-expressions-logiques
+  cd resolution-automatique-validite-expressions-logiques |
   python resolution_validite.py
 
 # Exemple d'Utilisation : 
