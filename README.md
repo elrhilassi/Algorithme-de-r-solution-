@@ -23,7 +23,7 @@ Fin ;
 
    2-Exécuter le Programme:
   cd Algorithme-de-r-solution |
-  python equation.py.py
+  python equation.py
 
 # Exemple d'Utilisation : 
 
